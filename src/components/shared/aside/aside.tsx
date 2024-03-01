@@ -1,6 +1,5 @@
 "use client"
-import {FC, MutableRefObject, RefObject, useEffect, useRef, useState} from "react";
-import axios from "axios";
+import {FC, useState} from "react";
 import {lessonMenu} from "@/constants/lesson_menu";
 import {ChevronRightIcon} from "@heroicons/react/16/solid";
 const DropDownMenu = ({lesson, isListOpenned, toggleLessonList, index} : {

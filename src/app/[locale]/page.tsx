@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import {ChevronLeftIcon, ChevronRightIcon} from "@heroicons/react/16/solid";
 import {useState} from "react";
 import {lessonMenu} from "@/constants/lesson_menu";
