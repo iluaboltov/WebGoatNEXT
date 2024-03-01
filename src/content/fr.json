@@ -1,0 +1,10 @@
+{
+  "Home": {
+    "header": {
+      "search": "Leçon de recherche"
+    },
+    "lesson": {
+      "reset" : "Réinitialiser la leçon"
+    }
+  }
+}
