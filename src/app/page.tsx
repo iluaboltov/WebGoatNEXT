@@ -1,8 +1,8 @@
 import {redirect} from "next/navigation";
 
-const RootPage = () => {
+const RootPage = ({params}: {params: { local: string}}) => {
     return(
-        redirect('/en')
+        redirect(`/en/home`)
     )
 }
 export default RootPage;
